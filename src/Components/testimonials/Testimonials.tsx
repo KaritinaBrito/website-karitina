@@ -7,9 +7,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { Client } from "../../interfaces/Data";
-import avatar1 from "../../assets/skills/react.png";
-import avatar2 from "../../assets/skills/angular.png";
-import avatar3 from "../../assets/skills/responsive.png";
+import avatar1 from "../../assets/react.png";
+import avatar2 from "../../assets/angular.png";
+import avatar3 from "../../assets/css.jpg";
 import "./testimonials.css";
 import { Link } from "react-router-dom";
 
@@ -18,27 +18,27 @@ const data: Client[] = [
     avatar: avatar1,
     name: "React",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate saepe ipsum porro molestiae asperiores tenetur minima hic quibusdam iure id similique, rem placeat",
+      "Projects developed with React, with navigation functionalities and responsive design.",
   },
   {
     avatar: avatar2,
     name: "Angular",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate saepe ipsum porro molestiae asperiores tenetur minima hic quibusdam iure id similique, rem placeat",
+      "Projects developed with Angular, with navigation functionalities and responsive design",
   },
   {
     avatar: avatar3,
     name: "Responsive",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate saepe ipsum porro molestiae asperiores tenetur minima hic quibusdam iure id similique, rem placeat",
+      "Projects with responsive design for different devices, functionalities with Javascript",
   },
 ];
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Projects with different frameworkss</h5>
+      <h2>Portfolio</h2>
 
       <Swiper
         className="container testimonials_container"

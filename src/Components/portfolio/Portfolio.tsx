@@ -9,6 +9,7 @@ import img7 from "../../assets/portfolio/ecommerceAngular.png";
 import img8 from "../../assets/portfolio/budget-example.png";
 import img9 from "../../assets/portfolio/todoAngular.png";
 import img10 from "../../assets/portfolio/ecommerceReactM.png";
+import img11 from "../../assets/portfolio/batatabitM.png";
 
 import { Data } from "../../interfaces/Data";
 import ProjectItem from "../projectItem/ProjectItem";
@@ -44,7 +45,7 @@ const dataReact: Data[] = [
     image: img10,
     title: "Ecommerce website developed with React y Tailwind.",
     github: "https://github.com/KaritinaBrito/ecommerce-minimal-react",
-    demo: "https://unrivaled-cat-0184f5.netlify.app/",
+    demo: "https://animated-tanuki-02cce1.netlify.app/",
   },
 ];
 
@@ -94,6 +95,13 @@ const dataResponsive: Data[] = [
     title: "Cooking recipe, page with responsive design based on given design",
     github: "https://github.com/KaritinaBrito/Recipe-page",
     demo: "https://karitinabrito.github.io/Recipe-page/",
+  },
+  {
+    id: 4,
+    image: img11,
+    title: "Cooking recipe, page with responsive design based on given design",
+    github: "https://github.com/KaritinaBrito/Recipe-page",
+    demo: "https://karitinabrito.github.io/MobileFirst/",
   },
 ];
 

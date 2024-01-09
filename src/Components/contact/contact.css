@@ -39,6 +39,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    justify-content: space-around;
 }
 input, textarea {
     width: 100%;
