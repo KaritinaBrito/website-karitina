@@ -1,6 +1,5 @@
 import { FaAward } from "react-icons/fa";
 import Me from "../../assets/me/karen3.png";
-import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 import "./aboutMe.css";
@@ -16,29 +15,29 @@ const AboutMe = () => {
         </div>
 
         <div className="about_content">
+          <div className="about_content-text">
+            <p>
+              My focus is on frontend development, with notable skills in React,
+              JavaScript, HTML, CSS and Bootstrap. In addition to having
+              knowledge in Backend and databases.
+            </p>
+            <p>
+              I am a proactive person, an excellent teammate, organized,
+              goal-oriented and responsible.
+            </p>
+          </div>
           <div className="about_cards">
-            <article className="about_card">
+            <a className="about_card" href="#experience">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
               <small>1+ Years working</small>
-            </article>
-            <article className="about_card">
-              <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>200+</small>
-            </article>
-            <article className="about_card">
+            </a>
+            <a className="about_card" href="#testimonials">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
-            </article>
+              <small>40+ Completed</small>
+            </a>
           </div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            illum cumque molestias tempora delectus officia porro iusto tempore
-            maxime nesciunt facere deleniti dolor quos enim in, odio voluptate
-            nihil aliquam.
-          </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

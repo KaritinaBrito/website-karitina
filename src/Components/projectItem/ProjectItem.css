@@ -16,10 +16,12 @@
     border-radius: 1.5rem;
     overflow: hidden;
     max-width: 100%;
-    max-height: 300px;
-  
+    max-height: 300px;  
 }
-
+.portfolio_item-img img{
+    height: 300px;
+    margin: 0 auto;
+}
 .portfolio_item h3{
     margin: 1.2rem 0 2rem;
 }
@@ -27,6 +29,9 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+.btn-icon{
+    margin-left: 0.5rem;
 }
 /* Tablets */
 @media screen and (max-width: 1024px){
@@ -37,9 +42,13 @@
 }
 
 /* Smartphone */
-@media screen and (max-width: 600px){
-   .portfolio_container{
-    grid-template-columns: 1fr;
-    gap: 1rem;
-   }
+@media screen and (max-width: 868px){
+    .portfolio_container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .portfolio_item-img img{
+        height: 400px;
+        margin: 0 auto;
+    }
 }

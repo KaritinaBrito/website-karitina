@@ -14,12 +14,19 @@ footer a{
     margin-bottom: 2rem;
     display: inline-block;
 }
+.footer_logo img{
+    width: 5rem;
+    height: 5rem;
+}
 .permalinks{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 auto 3rem;
+    margin: 0 auto 5rem;
+}
+.permalinks a:hover{
+    color: var(--color-secondary);
 }
 .footer_socials{
     display: flex;
@@ -27,24 +34,10 @@ footer a{
     gap: 1rem;
     margin-bottom: 4rem;
 }
-.footer_socials a {
-    background: var(--bg-primary);
-    color: var(--color-white);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    display: flex;
-    border: 1px solid transparent;
-}
-.footer_socials a:hover {
-    background: transparent;
-    color: var(--bg-primary);
-    border-color: var(--bg-primary);
-}
 .footer_copyright{
     margin-bottom: -3.5rem;
     color: var(--bg-primary);
 }
-
 
 /* Smartphone */
 @media screen and (max-width: 600px){

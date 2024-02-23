@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import { Client } from "../../interfaces/Data";
 import avatar1 from "../../assets/react.png";
 import avatar2 from "../../assets/angular.png";
-import avatar3 from "../../assets/css.jpg";
+import avatar3 from "../../assets/css.png";
 import "./testimonials.css";
 import { Link } from "react-router-dom";
 
@@ -37,7 +37,7 @@ const data: Client[] = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Projects with different frameworkss</h5>
+      <h5>Projects with different frameworks</h5>
       <h2>Portfolio</h2>
 
       <Swiper

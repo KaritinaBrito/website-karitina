@@ -1,13 +1,10 @@
-import { FaFacebookF } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { RiTwitterXLine } from "react-icons/ri";
 import "./footer.css";
 
 const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer_logo">
-        Logo
+        <img src="/src/assets/flor-de-loto.png" alt="" />
       </a>
 
       <ul className="permalinks">
@@ -21,9 +18,6 @@ const Footer = () => {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
           <a href="#testimonials">Portfolio</a>
         </li>
         <li>
@@ -31,17 +25,6 @@ const Footer = () => {
         </li>
       </ul>
 
-      <div className="footer_socials">
-        <a href="https://facebook.com">
-          <FaFacebookF />
-        </a>
-        <a href="https://instagram.com">
-          <FiInstagram />
-        </a>
-        <a href="https://twitter.com">
-          <RiTwitterXLine />
-        </a>
-      </div>
       <div className="footer_copyright">
         <small> © KaritinaBrito </small>
       </div>

@@ -25,13 +25,26 @@
 .about_me-img:hover{
     transform: rotate(0);
 }
-.about_content p{
+.about_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.about_content-text{
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-primary);
+    letter-spacing: 1px;
+    font-size: 1.2;
+    user-select: none;
+}
+.about_content-text:hover{
+    color: var(--color-secondary);
 }
 .about_cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 .about_card{
@@ -41,7 +54,7 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
-    cursor: default;
+    cursor: pointer;
 }
 .about_card:hover{
     background: transparent;

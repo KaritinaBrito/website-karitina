@@ -1,6 +1,5 @@
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { FiDribbble } from "react-icons/fi";
 
 const SocialMedia = () => {
   return (
@@ -13,9 +12,6 @@ const SocialMedia = () => {
       </a>
       <a href="https://github.com/KaritinaBrito" target="_blank">
         <FaGithub />
-      </a>
-      <a href="https://dribble.com" target="_blank">
-        <FiDribbble />
       </a>
     </div>
   );

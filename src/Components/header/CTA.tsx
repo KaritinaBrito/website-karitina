@@ -1,14 +1,17 @@
-import './header.css'
-import cv from '../../assets/cv.pdf';
+import "./header.css";
+import cv from "../../assets/cv-karen.pdf";
 
 const Cta = () => {
-    return (
-        <div className='cta'>
-            <a href={cv} download className='btn'>Download</a>
-            <a href="#contact" className='btn btn-primary'>Contact me</a>
-        </div>
-    )
-}
+  return (
+    <div className="cta">
+      <a href={cv} download className="btn">
+        Download
+      </a>
+      <a href="#contact" className="btn btn-primary">
+        Contact me
+      </a>
+    </div>
+  );
+};
 
 export default Cta;
-

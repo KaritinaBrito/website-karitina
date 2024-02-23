@@ -2,6 +2,9 @@
     margin-top:  4rem;
     margin-bottom:  4rem;
 }
+.portfolio-page h2{
+    color: var(--color-secondary);
+}
 .portfolio_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
