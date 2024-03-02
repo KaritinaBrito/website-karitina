@@ -12,6 +12,7 @@ import img10 from "../../assets/portfolio/ecommerceReactM.png";
 import img11 from "../../assets/portfolio/batatabitM.png";
 import img12 from "../../assets/portfolio/pwitterDesktop.png";
 import img13 from "../../assets/portfolio/starbucks_clone__home.png";
+import img14 from "../../assets/portfolio/dashboard-react-desk.png";
 
 import { Data } from "../../interfaces/Data";
 import ProjectItem from "../projectItem/ProjectItem";
@@ -62,6 +63,14 @@ const dataReact: Data[] = [
     title: "Twitter clone developed with React y Tailwind.",
     github: "https://github.com/KaritinaBrito/pwitter-clone",
     demo: "https://pwitter-clone-lilac.vercel.app/",
+  },
+  {
+    id: 7,
+    image: img14,
+    title:
+      "Dashboard that allows you to navigate between different pages, with independent components with dark mode and light mode option",
+    github: "https://github.com/KaritinaBrito/dashboard-app-react",
+    demo: "https://dashboard-admin-react123.netlify.app/",
   },
 ];
 
