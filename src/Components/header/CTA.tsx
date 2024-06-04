@@ -1,5 +1,5 @@
 import "./header.css";
-import cv from "../../assets/cv-karen.pdf";
+import cv from "../../assets/karen.pdf";
 
 const Cta = () => {
   return (

@@ -30,7 +30,7 @@ const AboutMe = () => {
             <a className="about_card" href="#experience">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1+ Years working</small>
+              <small>2+ Years working</small>
             </a>
             <a className="about_card" href="#testimonials">
               <VscFolderLibrary className="about_icon" />

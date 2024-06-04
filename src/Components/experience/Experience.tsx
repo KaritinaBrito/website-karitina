@@ -83,6 +83,24 @@ const Experience = () => {
                 <h4>MySQL</h4>
               </div>
             </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Postgres</h4>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Java</h4>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>PHP</h4>
+              </div>
+            </article>
           </div>
         </div>
       </div>
