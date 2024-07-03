@@ -24,9 +24,9 @@
 .experience_content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
-
-    row-gap: 2rem;
+    justify-items: stretch;
+    gap: 2rem;
+    align-items: center;
 }
 .experience_details{
     display: flex;
