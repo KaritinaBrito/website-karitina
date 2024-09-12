@@ -15,6 +15,10 @@ import img12 from "../assets/portfolio/pwitterDesktop.png";
 import img13 from "../assets/portfolio/starbucks_clone__home.png";
 import img14 from "../assets/portfolio/dashboard-react-desk.png";
 import img15 from "../assets/portfolio/top-movies-mobile.png";
+import img16 from "../assets/portfolio/deliveryFoodDesktop1.png";
+import img17 from "../assets/portfolio/adminPanel.png";
+import img18 from "../assets/portfolio/adminSpotifyDesktop.png";
+import img19 from "../assets/portfolio/homeDesktop.png";
 
 export const dataReact: Data[] = [
     {
@@ -72,7 +76,7 @@ export const dataReact: Data[] = [
         id: 8,
         image: img15,
         title:
-            "Page representing the movie database API, with tailwind and responsive design",
+            "Page developed in Next.js, using theMoviedb API, styles with Tailwind and responsive design.",
         github: "https://github.com/KaritinaBrito/top-movies-guros.git",
         demo: "https://main--top-movies-guros.netlify.app/",
     },
@@ -131,5 +135,36 @@ export const dataResponsive: Data[] = [
         title: "Cooking recipe, page with responsive design based on given design",
         github: "https://github.com/KaritinaBrito/Recipe-page",
         demo: "https://karitinabrito.github.io/MobileFirst/",
+    },
+];
+
+export const dataFullstack: Data[] = [
+    {
+        id: 1,
+        image: img16,
+        title: "Page developed with React, CSS, that allows simulating a purchase of different items, using Stripe for payment management, customer registration and login using API created with Express.js",
+        github: "https://github.com/KaritinaBrito/delivery-food-fullstack/tree/master/frontend",
+        demo: "https://delivery-food-fullstack-frontend.onrender.com/",
+    },
+    {
+        id: 2,
+        image: img17,
+        title: "Store administration page, allows you to create, modify and delete items, inject them into a database, manage orders received from the frontend, change delivery status, created with Javascript, Node.js and Express.js",
+        github: "https://github.com/KaritinaBrito/delivery-food-fullstack/tree/master/admin",
+        demo: "https://delivery-food-fullstack-admin.onrender.com/orders",
+    },
+    {
+        id: 3,
+        image: img19,
+        title: "Spotify clone page made with React and Tailwind, which allows you to play music between lists that are consumed from your own API, created with Node.js and express.js",
+        github: "https://github.com/KaritinaBrito/spotify-clone-fullstack/tree/main/Spotify-Frontend",
+        demo: "https://spotify-clone-frontend-cxja.onrender.com/",
+    },
+    {
+        id: 4,
+        image: img18,
+        title: "Spotify clone administration page, allows you to list created songs and albums, create new songs and albums as well as delete records, so that they can be used from the Frontend. Created with Node.js and Express.js, using MongoDB.",
+        github: "https://github.com/KaritinaBrito/spotify-clone-fullstack/tree/main/spotify-admin",
+        demo: "https://spotify-clone-admin-yt50.onrender.com/",
     },
 ];

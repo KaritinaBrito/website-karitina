@@ -10,10 +10,17 @@ import { Client } from "../../interfaces/Data";
 import avatar1 from "../../assets/react.png";
 import avatar2 from "../../assets/angular.png";
 import avatar3 from "../../assets/css.png";
+import avatar4 from "../../assets/fullstack.png";
 import "./testimonials.css";
 import { Link } from "react-router-dom";
 
 const data: Client[] = [
+  {
+    avatar: avatar4,
+    name: "FullStack",
+    review:
+      "Fullstack developed projects.",
+  },
   {
     avatar: avatar1,
     name: "React",

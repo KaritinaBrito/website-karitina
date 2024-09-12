@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer_logo">
-        <img src="../../assets/flor-de-loto.png" alt="Logo" />
+        <img src="/src/assets/flor-de-loto.png" alt="Logo" />
       </a>
 
       <ul className="permalinks">

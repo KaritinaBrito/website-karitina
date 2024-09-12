@@ -1,6 +1,6 @@
 import "./portfolio.css";
 
-import { dataReact, dataAngular, dataResponsive} from "../../data/data-projects"
+import { dataReact, dataAngular, dataResponsive, dataFullstack} from "../../data/data-projects"
 import ProjectItem from "../projectItem/ProjectItem";
 import { Link, useParams } from "react-router-dom";
 import NotFound from "../../Pages/NotFound";
@@ -60,9 +60,24 @@ const Portfolio = () => {
             );
           })}
         </div>
+      ) : name === "FullStack" ? (
+        <div className="container portfolio_container">
+          {dataFullstack.map(({ id, image, title, github, demo }) => {
+            return (
+              <ProjectItem
+                id={id}
+                image={image}
+                title={title}
+                github={github}
+                demo={demo}
+              />
+            );
+          })}
+        </div>
       ) : (
         <NotFound />
-      )}
+      )
+      }
     </section>
   );
 };
